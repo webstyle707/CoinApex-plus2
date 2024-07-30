@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>template</title>
+    <title>CoinApex</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta charset="UTF-8">
@@ -16,28 +16,79 @@
         <header id="yourElementId" class="hidden lg:block fixed top-0 w-full py-3 z-20 border-b border-gray-500">
             <div class="flex justify-between items-center  max-w-[1130px] mx-auto px-8 xl:px-4">
                 <div>
-                    <img style="display: none;" id="img2" src="./assets/logo2.png" alt="">
-                    <img id="img1" src="./assets/logo.png" alt="">
+                    <div  style="display: none;" id="img1" >
+                        <h1  class="font-bold text-3xl text-black tracking-wider">
+                            CoinApex
+                        </h1>
+                    </div>
+
+                    <div  style="display: none;" id="img2" >
+                        <h1  class="font-bold text-3xl text-white tracking-wider">
+                            CoinApex
+                        </h1>
+                    </div>
                 </div>
                 <div id="menustyle" class="flex items-center text-white">
-                    <a href="" class="px-3 ">HOME</a>
-                    <a href="" class="px-3 ">SERVICES</a>
-                    <a href="" class="px-3 ">ABOUT</a>
-                    <a href="" class="px-3 ">FEARTURES</a>
-                    <a href="" class="px-3 ">TEAM</a>
-                    <a href="" class="px-3 ">BLOG</a>
-                    <a href="" class="px-3 ">PAGES</a>
-                    <a href="" class="px-3 ">CONTACT</a>
-                    <a href="" id="btnstyle" class="bg-[#FFC000] text-white shadow xl:px-8 px-4 py-3 font-normal ml-3">JOIN NOW</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">HOME</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">SERVICES</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">ABOUT</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">FEARTURES</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">TEAM</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">BLOG</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="px-3 ">PAGES</a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" id="btnstyle" class="bg-[#FFC000] text-white shadow xl:px-8 px-4 py-3 font-normal ml-3">JOIN GROUP NOW</a>
                 </div>
             </div>
         </header>
 
         <header class="lg:hidden">      
             <div class="border z-20 w-full py-4 bg-white px-4 flex items-center justify-between fixed top-0">
-                  <img src="./assets/logo.png" class="w-36 md:w-40" alt="">
-                 <ion-icon name="menu" class="text-4xl"></ion-icon>
+                <h1  class="font-bold text-2xl text-black tracking-wider">
+                    CoinApex
+                </h1>
+
+                 <ion-icon onclick="showNav()" id="menu" name="menu" class="text-3xl text-gray-700"></ion-icon>
             </div>
+
+             <!-- side nav -->
+             <div id="sidenav" class=" h-[150vh] w-full fixed -left-full top-0 flex items-center z-50">
+                <div class="w-[80%] md:w-[40%] bg-white h-full text-gray-800 pl-5 pr-px pt-10 flex flex-col *:py-4 *:border-b border-gray-600 z-10 shadow-xl shadow-gray-400">
+                    <div>
+                        <h1 class=" font-bold text-3xl text-[#FFC000]  pb-2 uppercase">
+                            CoinApex
+                        </h1>
+                    </div>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ" class="">
+                        Home
+                    </a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                        SERVICES
+                    </a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                        ABOUT
+                    </a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                        FEARTURES
+                    </a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                        TEAM
+                    </a>
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                        BLOG
+                    </a>
+                   
+                   <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                    PAGES
+                   </a>
+
+                    <a href="https://chat.whatsapp.com/EzT2TTjkOeoK1NMP8Ps8yJ">
+                        Join Group Now
+                    </a>
+                </div>
+                <div onclick="hideNav()" class="w-[60%] h-full relative bg-gray-900 inset-0 bg-opacity-55 -left-full" id="rightnavbar">
+                    <ion-icon id="hidenav"  name="close" class=" absolute top-5 right-5 text-white text-2xl "></ion-icon>
+                </div>
+              </div>
        </header>
 
 
