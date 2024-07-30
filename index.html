@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <div class="bgbody">
+        <header id="yourElementId" class="hidden lg:block fixed top-0 w-full py-3 z-20 border-b border-gray-500">
+            <div class="flex justify-between items-center  max-w-[1130px] mx-auto px-8 xl:px-4">
+                <div>
+                    <img style="display: none;" id="img2" src="./assets/logo2.png" alt="">
+                    <img id="img1" src="./assets/logo.png" alt="">
+                </div>
+                <div id="menustyle" class="flex items-center text-white">
+                    <a href="" class="px-3 ">HOME</a>
+                    <a href="" class="px-3 ">SERVICES</a>
+                    <a href="" class="px-3 ">ABOUT</a>
+                    <a href="" class="px-3 ">FEARTURES</a>
+                    <a href="" class="px-3 ">TEAM</a>
+                    <a href="" class="px-3 ">BLOG</a>
+                    <a href="" class="px-3 ">PAGES</a>
+                    <a href="" class="px-3 ">CONTACT</a>
+                    <a href="" id="btnstyle" class="bg-[#FFC000] text-white shadow xl:px-8 px-4 py-3 font-normal ml-3">JOIN NOW</a>
+                </div>
+            </div>
+        </header>
+
+        <header class="lg:hidden">      
+            <div class="border z-20 w-full py-4 bg-white px-4 flex items-center justify-between fixed top-0">
+                  <img src="./assets/logo.png" class="w-36 md:w-40" alt="">
+                 <ion-icon name="menu" class="text-4xl"></ion-icon>
+            </div>
+       </header>
+
+
+        <div class=" lg:mt-0 mt-16">
+            <section class="bg1 relative bg-cover object-right h-[60vh] md:h-screen max-w-full z-10 w-full">
+                <div class="absolute top-0 left-0 bg-[#16120E] inset-0 bg-opacity-70">
+                </div>
+                <div class="flex flex-col items-center justify-center h-full text-white absolute w-full z-10 space-y-5">
+                    <p class="text-xs uppercase">
+                        Welcome to
+                    </p>
+                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold">
+                        BitBank
+                    </h1>
+                    <div class="flex items-center space-x-4">
+                        <div>
+                            <p>
+                                <span class="md:text-2xl font-bold">4.8</span>
+                                Million
+                            </p>
+                            <p>
+                                Transactions
+                            </p>
+                        </div>
+
+                        <div>
+                            <p>
+                                <span class="md:text-2xl font-bold">16</span>
+                                Million
+                            </p>
+                            <p>
+                                Wallet
+                            </p>
+                        </div>
+
+                        <div>
+                            <p>
+                                <span class="md:text-2xl font-bold">26</span>
+                                 Countries
+                            </p>
+                            <p>
+                                Served
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:block hidden  text-2xl ">
+                        <p class=" text-center">
+                            Unordinary digital agency crafting sophisticated and
+                        </p>
+                        <p class=" text-center">
+                            eccentric stuff that will leave you speechless
+                        </p>
+                    </div>
+
+                    <div class="md:hidden px-10 text-center">
+                        Unordinary digital agency crafting sophisticated and eccentric stuff that will leave you speechless
+                    </div>
+
+                    <div class="flex space-x-4 items-center text-gray-900">
+                        <button class="px-10 py-3 md:py-4 shadow bg-[#FFC000] hover:bg-white transition-all duration-500 hover:scale-x-95">
+                            SERVICES
+                        </button>
+                        <button  class="px-9 py-3 md:py-4 shadow bg-white transition-all duration-500 hover:scale-x-95 hover:bg-[#9BA977] hover:bg-opacity-85 hover:text-white">
+                            JOIN NOW
+                        </button>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="z-10 bg-white sticky">     
+               <section class="py-20 z-10 bg-white sticky px-4 md:px-8 xl:px-0">
+                <div class=" max-w-[1130px] mx-auto space-y-16">
+                    <div class="flex flex-col justify-center items-center space-y-6">
+                        <h1 class="text-3xl font-bold">
+                            Services we provide
+                        </h1>
+                        <p class="w-16 border-b border-green-700 mx-auto">
+
+                        </p>
+                        <p class="text-gray-500 lg:px-44 text-center">
+                            With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+                        <div onmouseenter="Onehoverone()" onmouseleave="clearOnehoverone()" class="w-full space-y-4 flex flex-col items-center justify-center">
+                            <ion-icon id="hover1" name="refresh-outline" class="text-6xl p-9 rounded-full border border-gray-600"></ion-icon>
+                            <h1 class="text-2xl">
+                                <span class=" font-bold">
+                                    Bitcoin
+                                </span>
+                                 mining
+                            </h1>
+
+                           <p class="text-gray-500 text-center">
+                            Vllo eius voluptate quidem! Iste odit vel perferendis atque nisi iusto dolore eaque.
+                           </p>
+                           <button class=" font-bold text-gray-800" id="read1">Read More</button>
+                        </div>
+
+                        <div onmouseenter="Twohovertwo()" onmouseleave="clearTwohoverTwo()" class="w-full space-y-4 flex flex-col items-center justify-center">
+                            <ion-icon id="hover2" name="arrow-redo-outline" class="text-6xl p-9 rounded-full bg-[#FFC000]"></ion-icon>
+                            <h1 class="text-2xl">
+                                <span class=" font-bold">
+                                    Bitcoin
+                                </span>
+                                 mining
+                            </h1>
+
+                           <p class="text-gray-500 text-center">
+                            Vllo eius voluptate quidem! Iste odit vel perferendis atque nisi iusto dolore eaque.
+                           </p>
+                           <button class=" font-bold text-gray-800" id="read2">Read More</button>
+                        </div>
+
+                        <div onmouseenter="threehoverthree()" onmouseleave="clearthreehoverthree()" class="w-full space-y-4 flex flex-col items-center justify-center">
+                            <ion-icon id="hover3" name="bicycle-outline" class="text-6xl p-9 rounded-full border border-gray-600"></ion-icon>
+                            <h1 class="text-2xl">
+                                <span class=" font-bold">
+                                    Bitcoin
+                                </span>
+                                 mining
+                            </h1>
+
+                           <p class="text-gray-500 text-center">
+                            Vllo eius voluptate quidem! Iste odit vel perferendis atque nisi iusto dolore eaque.
+                           </p>
+                           <button class=" font-bold text-gray-800" id="read3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+               </section>
+
+                <section class="bg2 relative">
+                    <div class="  max-w-[1130px] mx-auto z-10 flex lg:flex-row flex-col items-center justify-center space-y-4 lg:space-y-0 lg:space-x-4 px-4 md:px-8">      
+                         <div class="lg:w-6/12">
+                              <img src="./assets/1.jfif" alt="">
+                         </div>
+                        <div class="lg:w-6/12 space-y-6">
+                            <div class="space-y-3">
+                                <p class="text-gray-900">
+                                    About us
+                                </p>
+                                <h2 class="font-semibold text-gray-800 xl:text-3xl text-2xl py-2 bg-yellow-400 pl-4">
+                                    Secure & Easy Way to Trade Bitcoin
+                                </h2>
+                            </div>
+                            <div class=" space-y-4">
+                                <p class="text-gray-500">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Perspiciatis unde omnis iste natus error sit.
+                                </p>
+    
+                                <div class="text-gray-600 space-y-3">
+                                    <div class="flex items-center space-x-3">
+                                        <ion-icon name="checkmark-outline" class="text-orange-400 p-[2px] rounded-full border border-gray-300 font-bold"></ion-icon>
+                                        <p >
+                                            Trusted worldwide.
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <ion-icon name="checkmark-outline" class="text-orange-400 p-[2px] rounded-full border border-gray-300 font-bold"></ion-icon>
+                                        <p >
+                                            Securee Wallet service.
+                                        </p>
+                                    </div>
+    
+    
+                                    <div class="flex items-center space-x-3">
+                                        <ion-icon name="checkmark-outline" class="text-orange-400 p-[2px] rounded-full border border-gray-300 font-bold"></ion-icon>
+                                        <p >
+                                            Clean Modern Design.
+                                        </p>
+                                    </div>
+    
+    
+    
+                                    <div class="flex items-center space-x-3">
+                                        <ion-icon name="checkmark-outline" class="text-orange-400 p-[2px] rounded-full border border-gray-300 font-bold"></ion-icon>
+                                        <p >
+                                            Bunch of Experts.
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <ion-icon name="checkmark-outline" class="text-orange-400 p-[2px] rounded-full border border-gray-300 font-bold"></ion-icon>
+                                        <p >
+                                            Lots Of Usefull Features.
+                                        </p>
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+                            <div>
+                                <button class=" uppercase px-7 py-4 tracking-wider bg-gray-900 shadow text-white">
+                                    join now
+                                </button>
+                           </div>
+                        </div>
+                   </div>
+
+                   <div class="md:bg-[#FFC000] pt-10 w-full left-0 z-10 md:mt-14 flex flex-col justify-end">
+                    <div class="max-w-[1130px] mx-auto space-y-16 pb-5 md:pb-24">
+                        <div class="bg-[#FFC000] flex flex-col justify-center items-center space-y-6 relative px-4 md:px-8 xl:px-0 py-5">
+                            <h1 class="text-3xl font-bold">
+                                How it Works
+                            </h1>
+                            <p class="w-16 border-b border-green-700 mx-auto">
+    
+                            </p>
+                            <p class="text-white lg:px-44 text-center">
+                                With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.
+                            </p>
+                        </div>
+                    
+                        <div class="max-w-[1130px] mx-auto  grid md:grid-cols-3 gap-6 md:absolute px-4 md:px-8 xl:px-0">
+                            <div class="flex items-center md:justify-end justify-center">
+                                <div class="flex flex-col justify-center items-center space-y-5">
+                                    <img class="border-8 border-white p-8 w-32 rounded-full bg-[#FFC000]" src="./assets/mobile.png" alt="">
+                                    <div class="px-4 lg:px-14 space-y-2">
+                                        <h2 class=" text-xl font-semibold text-center">
+                                            make payments
+                                        </h2>
+                                        <p class=" text-gray-500 text-center">
+                                            Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <div class="flex flex-col justify-center items-center space-y-5">
+                                    <img class="border-8 border-white p-8 w-32 rounded-full bg-[#FFC000]" src="./assets/pc.png" alt="">
+                                    <div class="px-4 lg:px-14 space-y-2">
+                                        <h2 class=" text-xl font-semibold text-center">
+                                            create your wallet
+                                        </h2>
+                                        <p class=" text-gray-500 text-center">
+                                            Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex md:justify-start items-center justify-center">
+                                <div class="flex flex-col justify-center items-center space-y-5">
+                                    <img class="border-8 border-white p-8 w-32 rounded-full bg-[#FFC000]" src="./assets/money.png" alt="">
+                                    <div class="px-4 lg:px-14 space-y-2">
+                                        <h2 class=" text-xl font-semibold text-center">
+                                            Buy or Sell Orders
+                                        </h2>
+                                        <p class=" text-gray-500 text-center">
+                                            Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </section>
+
+                <section class="bg-[#F2F4EC] pb-20 md:mt-56 z-10 sticky ">
+                    <div class="bg-white w-full py-5"></div>
+                    <div class="bg-[#F2F4EC] w-full pt-20"></div>
+                    <div class="mx-auto  max-w-[1130px] space-y-16 px-4 md:px-8 xl:px-0">
+                        <div class="flex flex-col justify-center items-center space-y-6">
+                            <h1 class="text-3xl font-bold">
+                                Why Choose Bitcoin
+                            </h1>
+                            <p class="w-16 border-b border-green-700 mx-auto">
+    
+                            </p>
+                            <p class="text-gray-500 lg:px-44 text-center">
+                                With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.
+                            </p>
+                        </div>
+
+                        <div class="grid lg:grid-cols-3 md:grid-cols-2 md:gap-8 gap-4">
+                            <div class="flex space-x-6">
+                                <img src="./assets/card1.png" class="w-16 h-16" alt="">
+                                <div class=" space-y-3">
+                                    <h1 class=" font-semibold text-xl">
+                                        Safe and Secure
+                                    </h1>
+                                    <p class=" text-gray-500 text-[14.5px]">
+                                        we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="flex space-x-6">
+                                <img src="./assets/card2.png" class="w-16 h-16" alt="">
+                                <div class=" space-y-3">
+                                    <h1 class=" font-semibold text-xl">
+                                      Make Payment
+                                    </h1>
+                                    <p class=" text-gray-500 text-[14.5px]">
+                                        we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.
+                                    </p>
+                                </div>
+                            </div>
+    
+    
+                            <div class="flex space-x-6">
+                                <img src="./assets/card3.png" class="w-16 h-16" alt="">
+                                <div class=" space-y-3">
+                                    <h1 class=" font-semibold text-xl">
+                                        Secure Wallet
+                                    </h1>
+                                    <p class=" text-gray-500 text-[14.5px]">
+                                        we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.
+                                    </p>
+                                </div>
+                            </div>
+    
+    
+                            <div class="flex space-x-6">
+                                <img src="./assets/card4.png" class="w-16 h-16" alt="">
+                                <div class=" space-y-3">
+                                    <h1 class=" font-semibold text-xl">
+                                        Higher Availibilty
+                                    </h1>
+                                    <p class=" text-gray-500 text-[14.5px]">
+                                        we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.
+                                    </p>
+                                </div>
+                            </div>
+    
+    
+                            <div class="flex space-x-6">
+                                <img src="./assets/card5.png" class="w-16 h-16" alt="">
+                                <div class=" space-y-3">
+                                    <h1 class=" font-semibold text-xl">
+                                        Recurring Buying
+                                    </h1>
+                                    <p class=" text-gray-500 text-[14.5px]">
+                                        we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.
+                                    </p>
+                                </div>
+                            </div>
+    
+    
+                            <div class="flex space-x-6">
+                                <img src="./assets/card6.png" class="w-16 h-16" alt="">
+                                <div class=" space-y-3">
+                                    <h1 class=" font-semibold text-xl">
+                                        Instant Exchnage
+                                    </h1>
+                                    <p class=" text-gray-500 text-[14.5px]">
+                                        we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="bg-[#FFFFFF] py-20 z-10 sticky px-4 md:px-8 xl:px-0">
+                <div class=" max-w-[1130px] mx-auto space-y-16">
+                    <div class="flex flex-col justify-center items-center space-y-6">
+                        <h1 class="text-3xl font-bold">
+                            Updated Price rate
+                        </h1>
+                        <p class="w-16 border-b border-green-700 mx-auto">
+    
+                        </p>
+                        <p class="text-gray-500 lg:px-44 text-center">
+                            With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.
+                        </p>
+                    </div>
+
+                    <div class=" flex md:flex-row flex-col items-center space-y-4 md:space-y-0 md:space-x-8">
+                        <div class="md:w-[50%]">
+                            <img class="w-full" src="./assets/3.jpg" alt="">
+                        </div>
+                        <div class="md:w-[50%]">
+                           <img class="w-full" src="./assets/5.jpg" alt="">
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+
+            <section class="bgbody fixed top-0 left-0  h-screen bg-cover">
+            </section>
+
+            <section class="py-20 z-10 sticky">
+                <div class=" max-w-[1130px] mx-auto space-y-16">
+                    <div class="flex md:flex-row flex-col items-center justify-center space-y-8 md:space-y-0 md:justify-between text-white px-4 md:px-8 xl:px-0">
+                        <div class="space-y-5 flex flex-col justify-center *:text-center">
+                            <div class="flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 text-[#FFC80A]">
+                                    <path d="M7.493 18.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75A.75.75 0 0 1 15 2a2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+                                  </svg>
+                                  
+                                  
+                            </div>
+                            <p class="text-3xl font-semibold">
+                                project complete
+                            </p>
+                            <p class="text-4xl font-bold">
+                                1200
+                            </p>
+                        </div>
+                        <div class="space-y-5 flex flex-col justify-center *:text-center">
+                            <div class="flex justify-center items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 text-[#FFC80A]">
+                                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM8.547 4.505a8.25 8.25 0 1 0 11.672 8.214l-.46-.46a2.252 2.252 0 0 1-.422-.586l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.211.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.654-.261a2.25 2.25 0 0 1-1.384-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137l1.279-2.132Z" clip-rule="evenodd" />
+                                  </svg>
+                                  
+                                  
+                                  
+                            </div>
+                            <p class="text-3xl font-semibold">
+                                Line of Work
+                            </p>
+                            <p class="text-4xl font-bold">
+                                56090
+                            </p>
+                        </div>
+
+                        <div class="space-y-5 flex flex-col justify-center *:text-center">
+                            <div class="flex justify-center items-center text-5xl">
+                                &#9996;
+                            </div>
+                            <p class="text-3xl font-semibold">
+                                Awards won
+                            </p>
+                            <p class="text-4xl font-bold">
+                                31
+                            </p>
+                        </div>
+                        <div class="space-y-5 flex flex-col justify-center *:text-center">
+                            <div class="flex justify-center items-center">
+                                <ion-icon name="people" class=" text-[#FFC80A] text-5xl"></ion-icon>       
+                            </div>
+                            <p class="text-3xl font-semibold">
+                                Happy Clients
+                            </p>
+                            <p class="tex   t-4xl font-bold">
+                                1000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-20 z-10 sticky bg-white flex justify-center px-4 md:px-8 xl:px-0">
+                <div class=" max-w-[1130px] mx-auto space-y-16">
+                    <div class="flex flex-col justify-center items-center space-y-6">
+                        <h1 class="text-3xl font-bold">
+                            Excellent Team Workers
+                        </h1>
+                        <p class="w-16 border-b border-green-700 mx-auto">
+
+                        </p>
+                        <p class="text-gray-500 lg:px-44 text-center">
+                            With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.
+                        </p>
+                    </div>
+
+                    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+                        <div class=" rounded-xl border border-[#FFC000] p-8 flex flex-col items-center justify-center space-y-6 xl:hover:shadow-gray-300 xl:hover:shadow-xl transition-all duration-500 cursor-pointer">
+                            <div class=" rounded-full overflow-hidden">
+                                <img src="./assets/u1.jpg" alt="">
+                            </div>
+                            <div class=" space-y-1 flex flex-col items-center justify-center-center ">
+                                <h2 class=" uppercase text-gray-700 text-lg font-semibold">
+                                    Williamson
+                                </h2>
+                                <p>
+                                    Web Developer
+                                </p>
+                                <div class=" space-x-3 flex justify-center items-center pt-2 *:p-2 *:border *:border-[#FFC000] *:rounded-full">
+                                    <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                        f
+                                      </p>
+                                    <ion-icon name="logo-twitter" class="text-[#FFC000]"></ion-icon>
+                                    <ion-icon name="logo-google" class="text-[#FFC000]"></ion-icon>
+                                  <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                    in
+                                  </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" rounded-xl border border-[#FFC000] p-8 flex flex-col items-center justify-center space-y-6 xl:hover:shadow-gray-300 xl:hover:shadow-xl transition-all duration-500 cursor-pointer">
+                            <div class=" rounded-full overflow-hidden">
+                                <img src="./assets/u2.jpg" alt="">
+                            </div>
+                            <div class=" space-y-1 flex flex-col items-center justify-center-center ">
+                                <h2 class=" uppercase text-gray-700 text-lg font-semibold">
+                                    Kristiana
+                                </h2>
+                                <p>
+                                    Web Designer
+                                </p>
+                                <div class=" space-x-3 flex justify-center items-center pt-2 *:p-2 *:border *:border-[#FFC000] *:rounded-full">
+                                    <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                        f
+                                      </p>
+                                    <ion-icon name="logo-twitter" class="text-[#FFC000]"></ion-icon>
+                                    <ion-icon name="logo-google" class="text-[#FFC000]"></ion-icon>
+                                  <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                    in
+                                  </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" rounded-xl border border-[#FFC000] p-8 flex flex-col items-center justify-center space-y-6 xl:hover:shadow-gray-300 xl:hover:shadow-xl transition-all duration-500 cursor-pointer">
+                            <div class=" rounded-full overflow-hidden">
+                                <img src="./assets/u3.jpg" alt="">
+                            </div>
+                            <div class=" space-y-1 flex flex-col items-center justify-center-center ">
+                                <h2 class=" uppercase text-gray-700 text-lg font-semibold">
+                                    Williamson
+                                </h2>
+                                <p>
+                                    Web Developer
+                                </p>
+                                <div class=" space-x-3 flex justify-center items-center pt-2 *:p-2 *:border *:border-[#FFC000] *:rounded-full">
+                                    <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                        f
+                                      </p>
+                                    <ion-icon name="logo-twitter" class="text-[#FFC000]"></ion-icon>
+                                    <ion-icon name="logo-google" class="text-[#FFC000]"></ion-icon>
+                                  <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                    in
+                                  </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" rounded-xl border border-[#FFC000] p-8 flex flex-col items-center justify-center space-y-6 xl:hover:shadow-gray-300 xl:hover:shadow-xl transition-all duration-500 cursor-pointer">
+                            <div class=" rounded-full overflow-hidden">
+                                <img src="./assets/u4.jpg" alt="">
+                            </div>
+                            <div class=" space-y-1 flex flex-col items-center justify-center-center ">
+                                <h2 class=" uppercase text-gray-700 text-lg font-semibold">
+                                    Kristiana
+                                </h2>
+                                <p>
+                                    Web Designer
+                                </p>
+                                <div class=" space-x-3 flex justify-center items-center pt-2 *:p-2 *:border *:border-[#FFC000] *:rounded-full">
+                                    <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                        f
+                                      </p>
+                                    <ion-icon name="logo-twitter" class="text-[#FFC000]"></ion-icon>
+                                    <ion-icon name="logo-google" class="text-[#FFC000]"></ion-icon>
+                                  <p class="text-[#FFC000] font-bold w-8 h-8 flex items-center justify-center">
+                                    in
+                                  </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="py-20 z-10 sticky bg-[#F2F4EC] px-4 md:px-8 xl:px-0">
+                <div class=" max-w-[1130px] mx-auto space-y-16">
+                    <div class="flex flex-col justify-center items-center space-y-6">
+                        <h1 class="text-3xl font-bold">
+                            Recent Blog Update
+                        </h1>
+                        <p class="w-16 border-b border-green-700 mx-auto">
+
+                        </p>
+                        <p class="text-gray-500 lg:px-44 text-center">
+                            With a belief that culture drives commerce, we leverage shared values and ideals to inform strategy and design, creating experiences that inspire life and inspire action. Our specialty of connecting brand, culture, and commerce has earned us a big reputation.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="space-y-3">
+                            <img src="./assets/team1.jpg" alt="">
+                            <h1 class=" font-bold text-lg text-gray-700">
+                                Make a profitable busines with us...
+                            </h1>
+                            <div class="flex items-center space-x-2 *:flex *:items-center *:space-x-1 *:text-gray-400 *:text-sm">
+                                
+                               <div>
+                                <ion-icon class="" name="person"></ion-icon>
+                                <p>
+                                    Mike
+                                </p>
+                               </div>
+                              <div>
+                                <ion-icon class="" name="calendar"></ion-icon>
+                                <p>
+                                17 jan 2018
+
+                                </p>
+                              </div>
+                               <div>
+                                <ion-icon class="" name="chatbubbles"></ion-icon>
+                                <p>
+                                    5
+                                </p>
+                               </div>
+                              <div>
+                                <ion-icon class="" name="heart"></ion-icon>
+                                <p>
+                                    20
+                                </p>
+                              </div>
+                              <div>
+                                <ion-icon class="" name="arrow-redo"></ion-icon>
+                                <p>
+                                    8
+                                </p>
+                              </div>
+                            </div>
+                            <p class="text-gray-500">
+                                Perspiciatis maxime illo officiis modi, quasi molestiae molestias reiciendis repellendus, quaerat, expedita ea eveniet omnis illum accusantium. Adipisci eos vel, rem harum!
+                            </p>
+                            <button class="flex items-center text-[#FFC000] font-semibold space-x-px"><p>Read More</p> <ion-icon name="chevron-forward-outline" class="pt-1"></ion-icon></button>
+                        </div>
+
+                        <div class="space-y-3">
+                            <img src="./assets/team2.jpg" alt="">
+                            <h1 class=" font-bold text-lg text-gray-700">
+                                Bitcoin crytpcurrency is now popular ...
+                            </h1>
+                            <div class="flex items-center space-x-2 *:flex *:items-center *:space-x-1 *:text-gray-400 *:text-sm">
+                                
+                               <div>
+                                <ion-icon class="" name="person"></ion-icon>
+                                <p>
+                                    Mike
+                                </p>
+                               </div>
+                              <div>
+                                <ion-icon class="" name="calendar"></ion-icon>
+                                <p>
+                                17 jan 2018
+
+                                </p>
+                              </div>
+                               <div>
+                                <ion-icon class="" name="chatbubbles"></ion-icon>
+                                <p>
+                                    5
+                                </p>
+                               </div>
+                              <div>
+                                <ion-icon class="" name="heart"></ion-icon>
+                                <p>
+                                    20
+                                </p>
+                              </div>
+                              <div>
+                                <ion-icon class="" name="arrow-redo"></ion-icon>
+                                <p>
+                                    8
+                                </p>
+                              </div>
+                            </div>
+                            <p class="text-gray-500">
+                                Perspiciatis maxime illo officiis modi, quasi molestiae molestias reiciendis repellendus, quaerat, expedita ea eveniet omnis illum accusantium. Adipisci eos vel, rem harum!
+                            </p>
+                            <button class="flex items-center text-[#FFC000] font-semibold space-x-px"><p>Read More</p> <ion-icon name="chevron-forward-outline" class="pt-1"></ion-icon></button>
+                        </div>
+
+                        <div class="space-y-3">
+                            <img src="./assets/team1.jpg" alt="">
+                            <h1 class=" font-bold text-lg text-gray-700">
+                                How to grow Your business...
+                            </h1>
+                            <div class="flex items-center space-x-2 *:flex *:items-center *:space-x-1 *:text-gray-400 *:text-sm">
+                                
+                               <div>
+                                <ion-icon class="" name="person"></ion-icon>
+                                <p>
+                                    Mike
+                                </p>
+                               </div>
+                              <div>
+                                <ion-icon class="" name="calendar"></ion-icon>
+                                <p>
+                                17 jan 2018
+
+                                </p>
+                              </div>
+                               <div>
+                                <ion-icon class="" name="chatbubbles"></ion-icon>
+                                <p>
+                                    5
+                                </p>
+                               </div>
+                              <div>
+                                <ion-icon class="" name="heart"></ion-icon>
+                                <p>
+                                    20
+                                </p>
+                              </div>
+                              <div>
+                                <ion-icon class="" name="arrow-redo"></ion-icon>
+                                <p>
+                                    8
+                                </p>
+                              </div>
+                            </div>
+                            <p class="text-gray-500">
+                                Perspiciatis maxime illo officiis modi, quasi molestiae molestias reiciendis repellendus, quaerat, expedita ea eveniet omnis illum accusantium. Adipisci eos vel, rem harum!
+                            </p>
+                            <button class="flex items-center text-[#FFC000] font-semibold space-x-px"><p>Read More</p> <ion-icon name="chevron-forward-outline" class="pt-1"></ion-icon></button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="py-20 z-10 sticky bg-[#1A2130]">
+            <div class=" max-w-[1130px] mx-auto space-y-6 md:space-y-16 flex flex-col md:items-center justify-center px-4 md:px-8 xl:px-0">
+                <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-6">
+                    <div class="space-y-4 col lg:col-span-2">
+                        <h1 class="font-bold text-gray-400 text-xl">
+                            We accept
+                        </h1>
+                        <div class="">
+                            <img src="./assets/payment.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class=" space-y-4">
+                        <h1 class="font-bold text-gray-400 text-xl">
+                             GLobal Price
+                        </h1>
+
+                        <div class=" space-y-2 text-gray-400">
+                            <p>
+                                Average Bitcoin Price
+                            </p>
+                            <p>
+                                API Documentation
+                            </p>
+                            <p>
+                                API Statics
+                            </p>
+                            <p>
+                                Currency Market
+                            </p>
+                            <p>
+                                Unlimited API request
+                            </p>
+                            <p>
+                                Bitcoin Price report 2016
+                            </p>
+                            
+                        </div>
+
+
+                    </div> 
+
+                    <div class=" space-y-4">
+                        <h1 class="font-bold text-gray-400 text-xl">
+                            Bitcoin Price API
+                        </h1>
+
+                        <div class=" space-y-2 text-gray-400">
+                            <p>
+                                Currency Market
+                            </p>
+                            <p>
+                                Unlimited API request
+                            </p>
+                            <p>
+                                Bitcoin Price report 2016
+                            </p>
+                            <p>
+                                Average Bitcoin Price
+                            </p>
+                            <p>
+                                API Documentation
+                            </p>
+                            <p>
+                                API Statics
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class=" space-y-4">
+                        <h1 class="font-bold text-gray-400 text-xl">
+                            Custom Index Price
+                        </h1>
+
+                        <div class=" space-y-2 text-gray-400">
+                            <p>
+                                Currency Market
+                            </p>
+                            <p>
+                                Unlimited API request
+                            </p>
+                            <p>
+                                Bitcoin Price report 2016
+                            </p>
+                            <p>
+                                Average Bitcoin Price
+                            </p>
+                            <p>
+                                API Documentation
+                            </p>
+                            <p>
+                                API Statics
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-gray-500 flex flex-col items-center justify-center">
+                    <p class=" text-center">
+                        Bitcoin is unstabe source of statics income over virtual world.
+                    </p>
+                    <p class=" text-center">
+                        All copyright Reserved to <span class="text-gray-300">BitBank</span> 2018
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
