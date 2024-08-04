@@ -63,7 +63,10 @@ function clearthreehoverthree(){
 
 
 
-
+function url() {
+    fbq("track", "Purchase");
+    location.href = "https://chat.whatsapp.com/DEwTmeThw93BqGjowUxCfE";
+  }
 
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
